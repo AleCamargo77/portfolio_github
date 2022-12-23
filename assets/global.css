@@ -7,6 +7,10 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: #0e1129;
   padding: 2rem;
   text-align: center;
@@ -38,8 +42,44 @@ body {
 }
 
 .numbers {
-  background-color: #4ed8c7;
+  /* background-color: #4ed8c7; */
   width: 160px;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.projects {
+  background-color: #4ed8c7;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+li span {
+  margin: 20px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 15px;
+}
+
+p {
+  color: #9da5d1;
+  font-weight: bold;
+
+  margin-top: 5px;
+}
+
+h1 {
+  margin-bottom: 10px auto;
 }
