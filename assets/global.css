@@ -13,7 +13,6 @@ body {
   justify-content: center;
   background-color: #0e1129;
   padding: 2rem;
-  text-align: center;
 }
 
 .img {
@@ -27,6 +26,7 @@ body {
 
 #container {
   background-color: #2b3566;
+  text-align: center;
   padding: 2rem;
   border-radius: 1rem;
   width: 530px;
@@ -71,15 +71,17 @@ a {
   text-decoration: none;
   list-style: none;
   margin-top: 15px;
+  padding-left: 5px;
 }
 
 p {
   color: #9da5d1;
   font-weight: bold;
-
+  padding-left: 3px;
   margin-top: 5px;
 }
 
 h1 {
   margin-bottom: 10px auto;
+  padding: 10px;
 }
